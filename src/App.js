@@ -1,4 +1,5 @@
 import React from 'react';
+import { ReactComponent as Logo } from './assets/logo.png';
 import './App.css';
 
 function App() {
@@ -16,7 +17,9 @@ function App() {
       <main>
         <section id="about">
           <h2>自己紹介</h2>
-          <img src="src/logo.svg" alt="田中太郎" />
+          <div>
+            <Logo />
+          </div>
           <p>
             ソフトウェアエンジニアの田中太郎です。
             React、Node.js、Pythonなどを得意としています。
