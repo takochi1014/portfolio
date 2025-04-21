@@ -6,19 +6,19 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>田中太郎</h1>
-        <p>ソフトウェアエンジニア</p>
         <nav>
-          <a href="#about">自己紹介</a> |
-          <a href="#portfolio">ポートフォリオ</a> |
-          <a href="#skills">スキル</a> |
+          <a href="#about">自己紹介</a>
+          <a href="#portfolio">ポートフォリオ</a>
+          <a href="#skills">スキル</a>
           <a href="#contact">コンタクト</a>
         </nav>
       </header>
       <main>
         <section id="about">
           <h2>自己紹介</h2>
+          <img src="src/logo.svg" alt="田中太郎" />
           <p>
-            ソフトウェアエンジニアの田口太郎です。
+            ソフトウェアエンジニアの田中太郎です。
             React、Node.js、Pythonなどを得意としています。
           </p>
         </section>

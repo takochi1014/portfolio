@@ -3,14 +3,24 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 20vh;
+  background-color: #fff;
+  min-height: 10vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  padding: 0 20px;
+  color: #333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.App-header h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+.App-header nav a {
+  color: #333;
 }
 
 .App-header nav a {
@@ -20,11 +30,23 @@
 }
 
 main {
-  padding: 20px;
+  padding: 50px;
 }
 
 section {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
+}
+
+#about {
+  display: flex;
+  align-items: center;
+}
+
+#about img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 30px;
 }
 
 .portfolio-item {
