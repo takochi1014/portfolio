@@ -42,6 +42,11 @@ section {
   align-items: center;
 }
 
+.logo {
+  width: 150px;
+  height: 150px;
+}
+
 #about img {
   width: 150px;
   height: 150px;

@@ -18,7 +18,7 @@ function App() {
         <section id="about">
           <h2>自己紹介</h2>
           <div>
-            <Logo />
+            <Logo className="logo" />
           </div>
           <p>
             ソフトウェアエンジニアの田中太郎です。
